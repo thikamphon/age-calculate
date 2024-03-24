@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --Purple: hsl(259, 100%, 65%);
+  --Lightred: hsl(0, 100%, 67%);
+  --White: hsl(0, 0%, 100%);
+  --Offwhite: hsl(0, 0%, 94%);
+  --Lightgrey: hsl(0, 0%, 86%);
+  --Smokeygrey: hsl(0, 1%, 44%);
+  --Offblack: hsl(0, 0%, 8%);
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 20px;
+  background-color: var(--Offwhite);
+  height: 100vh;
+
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  color: var(--Smokeygrey);
+}
+
+.container {
+  margin: auto;
+  background-color: var(--White);
+  width: 700px;
+  height: fit-content;
+
+  border-radius: 20px;
+  border-bottom-right-radius: 180px;
+
+  padding: 50px;
+}
+
+.container-input {
+  display: grid;
+  width: fit-content;
+  grid-template-columns: auto auto auto;
+  column-gap: 30px;
+  align-items: start;
+}
+
+input {
+  width: 120px;
+  height: 70px;
+  border-radius: 10px;
+  border: 1px solid var(--Lightgrey);
+  padding-inline: 20px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+input::placeholder {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--Lightgrey);
+}
+
+
+:focus-visible {
+  outline-color: var(--Purple);
+}
+
+.row {
+  display: grid;
+  grid-template-rows: auto auto;
+  text-align: left;
+  row-gap: 10px;
+}
+
+span {
+  font-style: italic;
+  letter-spacing: normal;
+  color: var(--Lightred);
+  font-weight: 400;
+}
+
+/* button */
+hr {
+  width: 100%;
+  display: flex;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border-top: 1px solid var(--Lightgrey);
+}
+
+.container-summit {
+  margin-top: 45px;
+  margin-bottom: 45px;
+
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+#arrow-btn {
+  display: flex;
+  position: absolute;
+  right: 0;
+
+  width: 90px;
+  height: 90px;
+  background-color: var(--Purple);
+
+  border: none;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+#arrow-btn:hover {
+  background-color: var(--Offblack)
+}
+
+
+/* Real Date */
+h1 {
+  display: inline-flex;
+  font-weight: 900;
+  font-size: 90px;
+  font-style: italic;
+  line-height: 100px;
+}
+
+.purple {
+  color: var(--Purple);
+}
+
+.black {
+  color: black;
+}
+
+#Block-RealTime {
+  margin-top: 40px;
+}
+
+
+/* Creadit Frontend - mentor */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* display : none */
+.required {
+  display: none;
+}
+
+/* display : relative */
+.required.open {
+  display: inline;
+}
+
+/* error */
+.error {
+  border: 1px solid var(--Lightred);
+}
+
+.redtxt {
+  color: var(--Lightred);
+}
