@@ -22,7 +22,8 @@
         width: 70px;
         height: 50px;
         padding-inline: 10px;
-        font-size: 1.5rem;
+  font-size: 1.5rem;
+
     }
 
     h1 {
@@ -52,10 +53,10 @@
     .attribution{
         font-size: 10px;
     }
-    
-    .error{
+.error{
         font-size: 9px;
       }
+}
 
 @media screen and (max-width:375px){
     h1 {
