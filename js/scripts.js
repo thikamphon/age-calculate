@@ -80,14 +80,9 @@ window.onload = function () {
                 newDay++;
             }
         }
-
         output_year.innerHTML = newYear;
         output_month.innerHTML = newMonth;
         output_day.innerHTML = newDay;
-
-        console.log(newDay);
-        console.log(newMonth);
-        console.log(newYear);
     }
 
     const isDayCorrect = () => {
@@ -173,8 +168,6 @@ window.onload = function () {
         isMonthCorrect();
         isYearCorrect();
         if (isDayCorrect() && isMonthCorrect() && isYearCorrect()) {
-            console.log( 'pass');
-
             substractAge();
         }
     })
