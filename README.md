@@ -24,4 +24,4 @@ The technical I use in this project is very basic just HTML CSS and JS only.
 
 ## Acknowledgments
 
-- [@SuivezYT](https://www.youtube.com/watch?v=QAz-vnIl08A)
+- script.js - [@SuivezYT](https://www.youtube.com/watch?v=QAz-vnIl08A)
