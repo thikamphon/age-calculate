@@ -150,6 +150,10 @@ h1 {
   font-size: 11px;
   text-align: center;
   letter-spacing: 1px;
+  bottom: 2px;
+  position: absolute;
+  transform: translate(-50%);
+  left: 50%;
 }
 
 .attribution a {
