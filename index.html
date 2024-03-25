@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
@@ -12,9 +11,8 @@
 
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/responsive.css">
-  <script src="./js/sc.js"></script>
+  <script src="./js/scripts.js"></script>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 
 <body>
@@ -25,19 +23,19 @@
       <div class="row"> 
         <label>DAY</label>
         <input type="number" id="day" placeholder="DD">
-        <span class="required">Must be a valid day</span>
+        <span class="error"></span>
       </div>
 
       <div class="row ">
         <label>MONTH</label>
         <input type="number" id="month" placeholder="MM">
-        <span class="required">Must be a valid month</span>
+        <span class="error"></span>
       </div>
 
       <div class="row">
         <label>YEAR</label>
         <input type="number" id="year"placeholder="YYYY">
-        <span class="required">Must be in the past</span>
+        <span class="error"></span>
       </div>
 
     </div>

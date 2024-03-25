@@ -45,7 +45,7 @@ body {
   width: fit-content;
   grid-template-columns: auto auto auto;
   column-gap: 30px;
-  align-items: start;
+  justify-content: space-between;
 }
 
 input {
@@ -155,35 +155,4 @@ h1 {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* display : none */
-.required {
-  display: none;
-}
-
-/* display : relative */
-.required.open {
-  display: inline;
-}
-
-/* error */
-.error {
-  border: 1px solid var(--Lightred);
-}
-
-.redtxt {
-  color: var(--Lightred);
 }
