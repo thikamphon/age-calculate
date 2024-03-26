@@ -21,7 +21,3 @@ The technical I use in this project is very basic just HTML CSS and JS only.
 ## Author
 
 - Frontend Mentor - [@thikamphon.RB](https://www.frontendmentor.io/profile/thikamphon)
-
-## Acknowledgments
-
-- script.js - [@SuivezYT](https://www.youtube.com/watch?v=QAz-vnIl08A)
