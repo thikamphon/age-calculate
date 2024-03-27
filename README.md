@@ -8,8 +8,8 @@ The technical I use in this project is very basic just HTML CSS and JS only.
 
 
 # Links
-- Solution URL: (https://github.com/thikamphon/Age-Calculate)
-- Live Site URL: (https://thikamphon.github.io/Age-Calculate/)
+- Solution URL: (https://github.com/thikamphon/age-Calculate)
+- Live Site URL: (https://thikamphon.github.io/age-Calculate/)
 
 
 # Built with
